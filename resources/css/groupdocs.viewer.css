@@ -1,0 +1,174 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: 100%;
+  background: #252525;
+  color: #a0a0a0;
+}
+
+a{
+  color: #a0a0a0;
+  text-decoration: none;
+}
+
+#logo{
+  position: absolute;
+  top: 10px;
+  left: 35px;
+  font-size: 40px;
+}
+
+#logo > a > img{
+  width: 130px;
+}
+
+#navigation{
+  position: absolute;
+  top: 26px;
+  right: 35px;
+}
+
+#navigation > li{
+  font-size: 14px;
+  font-weight: normal;
+  text-transform: uppercase;
+  display: inline;
+  margin-left: 15px;
+}
+
+#social{
+  width: 100%;
+  position: absolute;
+  bottom: 20px;
+  font-size: 18px;
+  text-align: center;
+}
+
+#social > li{
+  margin: 0px 15px;
+  display: initial;
+}
+
+#container{
+  width: 386px;
+  height: 576px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -288px;
+  margin-left: -193px;
+}
+
+#container > h1{
+  color: #ffffff;
+  font-size: 98px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#container > h4, #container > h3{
+  font-size: 12px;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#container > h4{
+  text-align: right;
+}
+
+#container > div#container-content{
+  width: 700px;
+  font-size: 13px;
+  margin-top: 70px;
+  margin-left: -157px;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+#container > div#container-content > div#product-description{
+  margin-bottom: 40px;
+}
+
+#container > div#container-content > div.btn{
+  width: 200px;
+  border: 1px solid;
+  padding: 10px;
+  margin: 20px auto;
+  display: none;
+}
+
+#container > div#container-content > div.repos > h1{
+  background: #252525;
+  font-size: 14px;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin: auto;
+  margin-top: 40px;
+  position: relative;
+  top: 10px;
+}
+
+#container > div#container-content > div.sdk > h1{
+  width: 50px;
+}
+
+#container > div#container-content > div.samples > h1{
+  width: 100px;
+}
+
+#container > div#container-content > div.repos > div.repos-list{
+  border: 1px solid;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#container > div#container-content > div.repos > div.repos-list > div{
+  display: inline;
+  margin: 0 10px;
+}
+
+#container > div#container-content > div.repos > div.repos-list > div > i{
+  font-size: 18px;
+  width: 30px;
+  text-align: center;
+}
+
+#container > div#container-content > div.repos > div.repos-list > div > a{
+  vertical-align: text-bottom;
+  font-size: 12px;
+}
+
+.dot-net{
+  color: #9560e7;
+}
+
+.java{
+  color: #ff3b2f;
+}
+
+.php{
+  color: #52b6ff;
+}
+
+.nodejs{
+  color: #ad3;
+}
+
+.ruby{
+  color: #b8585b;
+}
+
+.python{
+  color: #3f7ae2;
+}
+
+.android{
+  color: #2ac502;
+}
